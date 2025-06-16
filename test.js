@@ -21,7 +21,7 @@ test("One euro should be 1.07 dollars", function() {
     const expected = 3.5 * 1.07; 
     
     // This is the comparison for the unit test
-    expect(dollars).toBe(expected); // 1 euro is 1.07 dollars, then 3.5 euros should be = (3.5 * 1.07)
+    expect(dollars).toBe(expected); 
 })
 
 test("One dollar should be 146.261682 yens", function() {
@@ -35,7 +35,7 @@ test("One dollar should be 146.261682 yens", function() {
     const expected = (5 * 146.261682).toFixed(5); 
     
     // This is the comparison for the unit test
-    expect(yens).toBe(expected); // 1 euro is 1.07 dollars, then 3.5 euros should be = (3.5 * 1.07)
+    expect(yens).toBe(expected);
 })
 
 test("One thousand yens should be 5.5591054332 pound", function() {
@@ -49,5 +49,5 @@ test("One thousand yens should be 5.5591054332 pound", function() {
     const expected = (3 * 5.5591054332).toFixed(5); 
     
     // This is the comparison for the unit test
-    expect(pounds).toBe(expected); // 1 euro is 1.07 dollars, then 3.5 euros should be = (3.5 * 1.07)
+    expect(pounds).toBe(expected); 
 })
